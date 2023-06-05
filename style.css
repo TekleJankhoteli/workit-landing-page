@@ -16,13 +16,13 @@
         flex-direction: column; 
 
     }
-.bodybg{
+.bodybg{width: 375px;
     background-color:  #FCF8FF;
     border-bottom-right-radius: 100% 5%;
     border-bottom-left-radius: 100% 5%;
 }
     header{
-       
+      
         background-color: #24053E;
         border-top-left-radius: 0;
         border-top-right-radius: 0;
@@ -79,8 +79,11 @@
         margin-bottom: 40px;
 
     }
-    .maintext img{
+    .mobph{
         position: relative;
+        top: 90px;
+       
+
     }
     main{display: flex;
     justify-content: center;
@@ -235,7 +238,9 @@ section button{
     .deskphone{display: none;}
   
 
-    @media screen and (min-width:377px){
+    @media screen and (min-width:768px){
+        .bodybg{width:768px;}
+        
         header{width:768px;
             height: 540px;
             background:url(./assets/bgtablet.png);
@@ -250,6 +255,7 @@ section button{
         }
         .maintext{padding-left: 190px;
             padding-right: 190px;
+            
             
         }
         .maintext button{
@@ -269,7 +275,8 @@ section button{
         }
         .mobph{
             position: relative;
-            bottom: 470px;
+        
+           
         }
 
         main{display: flex;
@@ -277,7 +284,7 @@ section button{
             align-items: center;
             flex-direction:column;
             width: 768px;
-            height: 900px;
+           
     
         }
         .sections{
@@ -338,10 +345,12 @@ section button{
 
 
 
-    @media screen and (min-width:765px){
-        .bodybg{width:1440px;
+    @media screen and (min-width:1440px){
+        .bodybg{
              width: 100%; 
         }
+        header{width: 100%;}
+
         .headerbg{
             
             border-top-left-radius: 0;
@@ -450,4 +459,5 @@ section button{
     .sectioncircle img{
         width: 173px;
     }
+    footer{width: 100%;}
 }
