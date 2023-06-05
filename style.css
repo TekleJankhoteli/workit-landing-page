@@ -275,6 +275,7 @@ section button{
         }
         .mobph{
             position: relative;
+            top: -480px;
         
            
         }
@@ -345,10 +346,11 @@ section button{
 
 
 
-    @media screen and (min-width:1440px){
+    @media screen and (min-width:1400px){
         .bodybg{
              width: 100%; 
         }
+
         header{width: 100%;}
 
         .headerbg{
@@ -381,8 +383,7 @@ section button{
             }
 
             .circleslittle{
-
-                display: block;
+                
                 position: relative;
                 top: 70px;
                 left: 1100px;
@@ -424,7 +425,7 @@ section button{
         .maintext h1{
             width: 635px;
             position: relative;
-            left: 550px;
+            left: 450px;
             top: 146px;
             text-align: center;
             margin-top: 10px;
@@ -433,7 +434,7 @@ section button{
         .maintext button{
             position: relative;
             top: 150px;
-            left: 550px;
+            left: 450px;
             width: 161px;
             height: 61px;
         }
