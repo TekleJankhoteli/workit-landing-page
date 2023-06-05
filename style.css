@@ -352,12 +352,13 @@ section button{
         header{width: 100%;}
 
         .headerbg{
-            
+            width: 100%;
             border-top-left-radius: 0;
             border-top-right-radius: 0;
             border-bottom-left-radius: 50% 10%;
             border-bottom-right-radius: 50% 10%;
             background-image: none;
+            height: 730px;
             background-color: #24053E;
             background-repeat: repeat;
             background-size:100%;
@@ -366,54 +367,80 @@ section button{
       
        
 
-        .header{width: 1440px;
+        .header{width: 100%;
             display: flex;
             justify-content: space-between;
             padding-left: 100px;
             padding-right: 100px;
         }
-        .circlesbig{
+        .circlesbig{ display: none;
             display: block;
             position: absolute;
             left: 1px;
             top: 20px;
             }
 
-            .circleslittle{display: block;
+            .circleslittle{
+
+                display: block;
                 position: relative;
-                left: 1020px;
-                
-               
+                top: 70px;
+                left: 1100px;
+
+            
             }
             .mobph{
-                display: none;
+              display: none;
             }
-           .deskphone{display: block;
-            position: relative;
-            bottom: 250px;
-            left: 300px;}
+
+            .deskphone{
+                width: 715px;
+                height: 427px;
+                display: block;
+                position: relative;
+                left: 361px;
+                top: 300px;
+            }
+
+
+        .deskmaintext{
+            width: 635px;
+            height: 160px;
+            display: flex;
+            justify-content: center;
+            
+        }
 
         .maintext{
+            width: 635px;
+            height: 160px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            margin-top: 60px;
-            
+            margin-top: 180px;
+           
         }
         .maintext h1{
-          position: relative;
-          left: 400px;
-          margin-top: 10px;
+            width: 635px;
+            position: relative;
+            left: 550px;
+            top: 146px;
+            text-align: center;
+            margin-top: 10px;
+            font-size: 80px;
         }
         .maintext button{
             position: relative;
-            left: 400px;
-            margin-top: 10px;
+            top: 150px;
+            left: 550px;
+            width: 161px;
+            height: 61px;
         }
 
    
-        main{display: flex;
+        main{
+        display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: row;
